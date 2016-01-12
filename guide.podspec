@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 s.name             = "guide"
-s.version          = "1.0.0"
-s.summary          = "A guide view used on iOS."
+s.version          = "1.0.1"
+s.summary          = "Guide views used on iOS."
 s.description      = <<-DESC
-It is a guide view used on iOS, which implement by Objective-C.
+It is guide views used on iOS, which implement by Objective-C.
 DESC
 s.homepage         = "https://github.com/DreamCatcherJ/guide"
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
