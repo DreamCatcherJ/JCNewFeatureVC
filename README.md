@@ -32,4 +32,4 @@ JCRootViewController *VC = [[JCRootViewController alloc] initWithGuideController
 - 初始化控制器放入新特性页面的图片
 - 因为通常在新特性最后一张图片会有点击按钮，所以最后一个页面传入一个控制器进行点击等事件处理
 
-<b>简书地址:[http://www.jianshu.com/p/ed3e8a484405](https://github.com/DreamCatcherJ/guide)
+<b>简书地址:[http://www.jianshu.com/p/ed3e8a484405](http://www.jianshu.com/p/ed3e8a484405)
