@@ -52,7 +52,7 @@
  */
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerBeforeViewController:(UIViewController *)viewController
 {
-    NSUInteger index = [self indexOfViewController:(DataViewController *)viewController];
+    NSUInteger index = [self indexOfViewController:(UIViewController *)viewController];
     if ((index == 0) || (index == NSNotFound)) {
         return nil;
     }
@@ -64,50 +64,10 @@
  */
 - (UIViewController *)pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
-    NSUInteger index = [self indexOfViewController:(DataViewController *)viewController];
+    NSUInteger index = [self indexOfViewController:(UIViewController *)viewController];
     if (index == NSNotFound || (++index == self.guideControllers.count)) {
         return nil;
     }
     return [self viewControllerAtIndex:index];
 }
-//
-//#pragma mark - UIPageViewController delegate methods
-///**
-// *  设置横竖屏显示多少页
-// *  UIPageViewControllerSpineLocationMin 1
-// *  UIPageViewControllerSpineLocationMid 2
-// */
-//- (UIPageViewControllerSpineLocation)pageViewController:(UIPageViewController *)pageViewController spineLocationForInterfaceOrientation:(UIInterfaceOrientation)orientation {
-//    if (UIInterfaceOrientationIsPortrait(orientation) || ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)) {
-//        // iPad竖屏或者iPhone (1页)
-//        UIViewController *currentViewController = self.pageViewController.viewControllers[0];
-//        NSArray *viewControllers = @[currentViewController];
-//        [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
-//        // 默认就是NO
-//        self.pageViewController.doubleSided = NO;
-//        return UIPageViewControllerSpineLocationMin;
-//    }
-//    
-//    /* iPad 的横屏 (2页)
-//     -  如果当前页是双数，显示当前页和下一页
-//     -  如果当前页是奇数，显示上一页和当前页
-//     */
-//    DataViewController *currentViewController = self.pageViewController.viewControllers[0];
-//    NSArray *viewControllers = nil;
-//    
-//    NSUInteger indexOfCurrentViewController = [self indexOfViewController:currentViewController];
-//    if (indexOfCurrentViewController == 0 || indexOfCurrentViewController % 2 == 0) {
-//        UIViewController *nextViewController = [self pageViewController:self.pageViewController viewControllerAfterViewController:currentViewController];
-//        viewControllers = @[currentViewController, nextViewController];
-//    } else {
-//        UIViewController *previousViewController = [self pageViewController:self.pageViewController viewControllerBeforeViewController:currentViewController];
-//        viewControllers = @[previousViewController, currentViewController];
-//    }
-//    [self.pageViewController setViewControllers:viewControllers direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
-//    
-//    
-//    return UIPageViewControllerSpineLocationMid;
-//}
-
-
 @end

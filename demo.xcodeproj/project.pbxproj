@@ -18,7 +18,7 @@
 		0448957F1C44AFC9000861A9 /* bg3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0448957C1C44AFC9000861A9 /* bg3.jpg */; };
 		044895B21C44C7E2000861A9 /* JCRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044895AD1C44C7E2000861A9 /* JCRootViewController.m */; };
 		044895B31C44C7E2000861A9 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044895AF1C44C7E2000861A9 /* ModelController.m */; };
-		044895B41C44C7E2000861A9 /* UIColor+JCRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 044895B11C44C7E2000861A9 /* UIColor+JCRandomColor.m */; };
+		044895DA1C44DF0B000861A9 /* UIColor+JCRandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 044895D91C44DF0B000861A9 /* UIColor+JCRandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +39,8 @@
 		044895AD1C44C7E2000861A9 /* JCRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCRootViewController.m; sourceTree = "<group>"; };
 		044895AE1C44C7E2000861A9 /* ModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
 		044895AF1C44C7E2000861A9 /* ModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
-		044895B01C44C7E2000861A9 /* UIColor+JCRandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JCRandomColor.h"; sourceTree = "<group>"; };
-		044895B11C44C7E2000861A9 /* UIColor+JCRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JCRandomColor.m"; sourceTree = "<group>"; };
+		044895D81C44DF0B000861A9 /* UIColor+JCRandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JCRandomColor.h"; sourceTree = "<group>"; };
+		044895D91C44DF0B000861A9 /* UIColor+JCRandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JCRandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +73,8 @@
 		044895581C44AF31000861A9 /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				044895D81C44DF0B000861A9 /* UIColor+JCRandomColor.h */,
+				044895D91C44DF0B000861A9 /* UIColor+JCRandomColor.m */,
 				044895AB1C44C7E2000861A9 /* guide */,
 				0448955C1C44AF31000861A9 /* AppDelegate.h */,
 				0448955D1C44AF31000861A9 /* AppDelegate.m */,
@@ -105,8 +107,6 @@
 				044895AD1C44C7E2000861A9 /* JCRootViewController.m */,
 				044895AE1C44C7E2000861A9 /* ModelController.h */,
 				044895AF1C44C7E2000861A9 /* ModelController.m */,
-				044895B01C44C7E2000861A9 /* UIColor+JCRandomColor.h */,
-				044895B11C44C7E2000861A9 /* UIColor+JCRandomColor.m */,
 			);
 			path = guide;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 				044895B31C44C7E2000861A9 /* ModelController.m in Sources */,
 				0448955E1C44AF31000861A9 /* AppDelegate.m in Sources */,
 				0448955B1C44AF31000861A9 /* main.m in Sources */,
-				044895B41C44C7E2000861A9 /* UIColor+JCRandomColor.m in Sources */,
+				044895DA1C44DF0B000861A9 /* UIColor+JCRandomColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

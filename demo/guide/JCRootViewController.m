@@ -40,6 +40,11 @@
     return self;
 }
 
+- (void)viewDidLayoutSubviews{
+
+    [super viewDidLayoutSubviews];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -48,12 +53,6 @@
 
     self.pageViewController.delegate = self.modelController;
     self.pageViewController.dataSource = self.modelController;
-    
-    // 设置startingViewController index 第几个
-//    DataViewController *startingViewController = [self.modelController viewControllerAtIndex:0 storyboard:self.storyboard];
-    
-    // 设置pageViewControllers
-//    NSArray *viewController = @[_controllers[0]];
     
     // 设置pageViewController默认展示第几页
     [self.pageViewController setViewControllers:@[_guideControllers[0]] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];

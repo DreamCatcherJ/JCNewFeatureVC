@@ -7,15 +7,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class DataViewController;
-
 @interface ModelController : NSObject <UIPageViewControllerDelegate,UIPageViewControllerDataSource>
 
 - (instancetype)initWithPageViewController:(UIPageViewController *)pageViewController andGuideControllers:(NSArray *)guideControllers;
 
 - (UIViewController *)viewControllerAtIndex:(NSUInteger)index;
 
-- (NSUInteger)indexOfViewController:(DataViewController *)viewController;
+- (NSUInteger)indexOfViewController:(UIViewController *)viewController;
 
 @end
 
