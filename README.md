@@ -11,7 +11,7 @@ CocoaPods
 
 - 在 Podfile 中添加 pod "YYKit"。
 - 执行 pod install 或 pod update。
-- 导入 <JCRootViewController.h>
+- 导入 \<JCRootViewController.h\>
 
 ```
 [[JCRootViewController alloc] initWithGuideControllersImages:@[image1]
