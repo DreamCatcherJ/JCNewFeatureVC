@@ -1,6 +1,8 @@
 # guide
 ##快速集成翻页效果的新特性页面##
 
+![](https://raw.githubusercontent.com/DreamCatcherJ/guide/master/demo/screenshots/guide.gif)
+
 #演示项目
 查看并运行 demo.xcodeproj
 
