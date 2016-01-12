@@ -1,15 +1,15 @@
 //
-//  RootViewController.m
+//  JCRootViewController.m
 //  sd
 //
 //  Created by JC_R on 16/1/11.
 //  Copyright © 2016年 JC_R. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "JCRootViewController.h"
 #import "ModelController.h"
 
-@interface RootViewController () 
+@interface JCRootViewController ()
 
 @property (readonly, strong, nonatomic) ModelController *modelController;
 
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation RootViewController
+@implementation JCRootViewController
 
 @synthesize modelController = _modelController;
 

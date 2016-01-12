@@ -10,19 +10,13 @@ s.homepage         = "https://github.com/DreamCatcherJ/guide"
 s.license          = 'MIT'
 s.author           = { "江嘉荣" => "j_dreamcatcher@163.com" }
 s.source           = { :git => "https://github.com/DreamCatcherJ/guide.git", :tag => s.version.to_s }
-# s.social_media_url = 'https://twitter.com/NAME'
 
 s.platform     = :ios, '7.0'
-# s.ios.deployment_target = '5.0'
-# s.osx.deployment_target = '10.7'
+
 s.requires_arc = true
 
 s.source_files = 'guide/*'
-# s.resources = 'Assets'
 
-# s.ios.exclude_files = 'Classes/osx'
-# s.osx.exclude_files = 'Classes/ios'
-# s.public_header_files = 'Classes/**/*.h'
 s.frameworks = 'Foundation', 'UIKit'
 
 end

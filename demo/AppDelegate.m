@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
+#import "JCRootViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -31,7 +31,7 @@
     
     lastVc.view.backgroundColor = [UIColor whiteColor];
     
-    RootViewController *VC = [[RootViewController alloc] initWithGuideControllersImages:@[image1,image2,image3] andLastVc:lastVc];
+    JCRootViewController *VC = [[JCRootViewController alloc] initWithGuideControllersImages:@[image1,image2,image3] andLastVc:lastVc];
     
     self.window.rootViewController = VC;
     

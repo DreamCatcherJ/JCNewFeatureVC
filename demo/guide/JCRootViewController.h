@@ -1,6 +1,5 @@
 //
-//  RootViewController.h
-//  sd
+//  JCRootViewController.h
 //
 //  Created by JC_R on 16/1/11.
 //  Copyright © 2016年 JC_R. All rights reserved.
@@ -8,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UIViewController 
+@interface JCRootViewController : UIViewController 
 
 @property (strong, nonatomic) UIPageViewController *pageViewController;
 
