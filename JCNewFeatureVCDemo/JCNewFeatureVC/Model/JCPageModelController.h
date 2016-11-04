@@ -1,8 +1,8 @@
 //
 //  JCPageModelController.h
 //
-//  Created by JC_R on 16/1/11.
-//  Copyright © 2016年 JC_R. All rights reserved.
+//  Created by JJR on 16/1/11.
+//  Copyright © 2016年 JJR. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
