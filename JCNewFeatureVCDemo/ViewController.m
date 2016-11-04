@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"page3"]];
+    imageView.frame = self.view.bounds;
     [self.view addSubview:imageView];
     [self.view sendSubviewToBack:imageView];
     
