@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-s.name             = "guide"
-s.version          = "1.0.2"
-s.summary          = "Guide views used on iOS."
+s.name             = "JCNewFeatureVC"
+s.version          = "1.0.4"
+s.summary          = "NewFeature Views used on iOS."
 s.description      = <<-DESC
-It is guide views used on iOS, which implement by Objective-C.
+It is new feature views used on iOS, which implement by Objective-C.
 DESC
 s.homepage         = "https://github.com/DreamCatcherJ/guide"
 s.license          = 'MIT'
@@ -14,7 +14,7 @@ s.platform     = :ios, '7.0'
 
 s.requires_arc = true
 
-s.source_files = 'guide/*'
+s.source_files = 'JCNewFeatureVCDemo/JCNewFeatureVC/*.{h,m}'
 
 s.frameworks = 'Foundation', 'UIKit'
 
