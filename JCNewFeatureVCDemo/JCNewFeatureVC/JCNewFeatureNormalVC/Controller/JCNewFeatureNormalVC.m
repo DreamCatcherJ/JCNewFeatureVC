@@ -9,7 +9,6 @@
 #import "JCNewFeatureNormalVC.h"
 #import "JCGuideCell.h"
 #import "NSUserDefaults+Extension.h"
-#import "JCHomeViewController.h"
 
 typedef NS_ENUM(NSInteger,JCNewFeatureNormalType) {
     JCNewFeatureNormalTypeImagesAndLastVC,
