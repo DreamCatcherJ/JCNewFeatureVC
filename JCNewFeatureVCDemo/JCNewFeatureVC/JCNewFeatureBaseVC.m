@@ -23,11 +23,29 @@ NSString *const NewFeatureVersionKey = @"JCNewFeatureVersionKey";
     
 }
 
-#pragma mark - click event
-- (void)didClickImg{
-    
-    !self.enterBlock?:self.enterBlock();
-    
++ (instancetype)newFeatureWithImages:(NSArray *)images andLastVC:(UIViewController *)lastVC{
+    NSAssert(YES, @"不能调用父类方法，请初始化子类");
+    return nil;
+}
+- (instancetype)initWithNewFeatureImages:(NSArray *)images andLastVC:(UIViewController *)lastVC{
+    NSAssert(YES, @"不能调用父类方法，请初始化子类");
+    return nil;
+}
++ (instancetype)newFeatureWithImages:(NSArray *)images enterBlock:(void(^)())enterBlock{
+    NSAssert(YES, @"不能调用父类方法，请初始化子类");
+    return nil;
+}
+- (instancetype)initWithNewFeatureImages:(NSArray *)images enterBlock:(void(^)())enterBlock{
+    NSAssert(YES, @"不能调用父类方法，请初始化子类");
+    return nil;
+}
++ (instancetype)newFeatureWithControllers:(NSArray *)controllers{
+    NSAssert(YES, @"不能调用父类方法，请初始化子类");
+    return nil;
+}
+- (instancetype)initWithNewFeatureControllers:(NSArray *)controllers{
+    NSAssert(YES, @"不能调用父类方法，请初始化子类");
+    return nil;
 }
 
 #pragma mark - 是否应该显示版本新特性页面

@@ -15,15 +15,13 @@
 @property (nonatomic,strong) NSArray *guideControllers;
 
 /**
- 新特性VC (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
- 
+ 新特性VC 图片&最后一页为控制器 (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
  @param images 图片
  @param lastVC 最后一个页面的VC
  */
 + (instancetype)newFeatureWithImages:(NSArray *)images andLastVC:(UIViewController *)lastVC;
 /**
- 新特性VC (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
- 
+ 新特性VC 图片&最后一页为控制器 (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
  @param images 图片
  @param lastVC 最后一个页面的lastVC
  */
@@ -31,13 +29,13 @@
 
 
 /**
- * 新特性VC (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
+ * 新特性VC 只需要传入图片 (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
  * images              : 图片
  * enterBlock            : 点击最后一张图片的回调block
  */
 + (instancetype)newFeatureWithImages:(NSArray *)images enterBlock:(void(^)())enterBlock;
 /**
- * 新特性VC (用法：普通翻页效果见demo1-3，翻页效果详见demo4-6)
+ * 新特性VC 只需要传入图片 (用法：普通翻页效果见demo1-3，翻页效果详见demo4-6)
  * images              : 图片
  * enterBlock            : 点击最后一张图片的回调block
  */
@@ -45,23 +43,20 @@
 
 
 /**
- 新特性VC (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
- 
+ 新特性VC 高度自定义每一页 (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
  @param controllers 每一页的控制
  */
 + (instancetype)newFeatureWithControllers:(NSArray *)controllers;
 /**
- 新特性VC (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
+ 新特性VC 高度自定义每一页 (用法：普通翻页效果见方法1-3，翻页效果详见方法4-6)
  
  @param controllers 每一页的控制
  */
 - (instancetype)initWithNewFeatureControllers:(NSArray *)controllers;
 
-/*
- *  是否应该显示版本新特性界面
- */
+/**
+  是否应该显示版本新特性页面
+*/
 + (BOOL)needShowNewFeature;
-
-- (void)didClickImg;
 
 @end

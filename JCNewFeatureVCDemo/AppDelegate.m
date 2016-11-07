@@ -35,7 +35,7 @@
     
     if (needShow) {
         
-        /******************翻页效果初始化方法1*******************/
+        /******************普通效果初始化方法1*******************/
         
         UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         ViewController *vc = [sb instantiateInitialViewController];
@@ -43,7 +43,7 @@
         JCNewFeatureNormalVC *newContr =[JCNewFeatureNormalVC newFeatureWithImages:@[page1,page2] andLastVC:vc];
         self.window.rootViewController = newContr;
         
-        /******************翻页效果初始化方法2*******************/
+        /******************普通效果初始化方法2*******************/
         /*
         JCNewFeatureNormalVC *newContr =[JCNewFeatureNormalVC newFeatureWithImages:@[page1,page2,page3] enterBlock:^{
             NSLog(@"enter");
@@ -51,7 +51,7 @@
         }];
         self.window.rootViewController = newContr;
          */
-        /******************翻页效果初始化方法3*******************/
+        /******************普通效果初始化方法3*******************/
         /*
         UIViewController *oneVC = [[UIViewController alloc] init];
         oneVC.view.backgroundColor = [UIColor orangeColor];

@@ -109,6 +109,13 @@
 
 }
 
+#pragma mark - click event
+- (void)didClickImg{
+    
+    !self.enterBlock?:self.enterBlock();
+    
+}
+
 - (void)dealloc{
     NSLog(@"%s",__func__);
 }
