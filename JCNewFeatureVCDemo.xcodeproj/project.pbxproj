@@ -17,11 +17,11 @@
 		04313DCF1DCC5C41002C11FF /* JCNewFeatureVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04313DCE1DCC5C41002C11FF /* JCNewFeatureVCDemoUITests.m */; };
 		04313DEE1DCC72D1002C11FF /* JCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04313DED1DCC72D1002C11FF /* JCHomeViewController.m */; };
 		04313DF81DCC7445002C11FF /* UIApplication+JCNewFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 04313DF21DCC7445002C11FF /* UIApplication+JCNewFeature.m */; };
-		04313DF91DCC7445002C11FF /* JCNewFeaturePagingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04313DF41DCC7445002C11FF /* JCNewFeaturePagingVC.m */; };
-		04313DFA1DCC7445002C11FF /* JCPageModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04313DF71DCC7445002C11FF /* JCPageModelController.m */; };
-		04EB9C881DCD770F00777BAF /* JCNewFeatureNormalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB9C811DCD770F00777BAF /* JCNewFeatureNormalVC.m */; };
-		04EB9C891DCD770F00777BAF /* NSUserDefaults+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB9C831DCD770F00777BAF /* NSUserDefaults+Extension.m */; };
-		04EB9C8A1DCD770F00777BAF /* JCGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB9C861DCD770F00777BAF /* JCGuideCell.m */; };
+		04A6C56D1DD03B81005BBEEB /* JCNewFeatureNormalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6C5671DD03B81005BBEEB /* JCNewFeatureNormalVC.m */; };
+		04A6C56F1DD03B81005BBEEB /* JCGuideCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6C56C1DD03B81005BBEEB /* JCGuideCell.m */; };
+		04A6C5761DD03BD5005BBEEB /* JCNewFeaturePagingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6C5721DD03BD5005BBEEB /* JCNewFeaturePagingVC.m */; };
+		04A6C5771DD03BD5005BBEEB /* JCPageModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6C5751DD03BD5005BBEEB /* JCPageModelController.m */; };
+		04A6C57A1DD03BDE005BBEEB /* NSUserDefaults+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A6C5791DD03BDE005BBEEB /* NSUserDefaults+Extension.m */; };
 		04EB9C8E1DCD868100777BAF /* JCNewFeatureBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB9C8D1DCD868100777BAF /* JCNewFeatureBaseVC.m */; };
 /* End PBXBuildFile section */
 
@@ -63,16 +63,16 @@
 		04313DED1DCC72D1002C11FF /* JCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHomeViewController.m; sourceTree = "<group>"; };
 		04313DF11DCC7445002C11FF /* UIApplication+JCNewFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JCNewFeature.h"; sourceTree = "<group>"; };
 		04313DF21DCC7445002C11FF /* UIApplication+JCNewFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JCNewFeature.m"; sourceTree = "<group>"; };
-		04313DF31DCC7445002C11FF /* JCNewFeaturePagingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNewFeaturePagingVC.h; sourceTree = "<group>"; };
-		04313DF41DCC7445002C11FF /* JCNewFeaturePagingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNewFeaturePagingVC.m; sourceTree = "<group>"; };
-		04313DF61DCC7445002C11FF /* JCPageModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPageModelController.h; sourceTree = "<group>"; };
-		04313DF71DCC7445002C11FF /* JCPageModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPageModelController.m; sourceTree = "<group>"; };
-		04EB9C801DCD770F00777BAF /* JCNewFeatureNormalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNewFeatureNormalVC.h; sourceTree = "<group>"; };
-		04EB9C811DCD770F00777BAF /* JCNewFeatureNormalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNewFeatureNormalVC.m; sourceTree = "<group>"; };
-		04EB9C821DCD770F00777BAF /* NSUserDefaults+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Extension.h"; sourceTree = "<group>"; };
-		04EB9C831DCD770F00777BAF /* NSUserDefaults+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Extension.m"; sourceTree = "<group>"; };
-		04EB9C851DCD770F00777BAF /* JCGuideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGuideCell.h; sourceTree = "<group>"; };
-		04EB9C861DCD770F00777BAF /* JCGuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCGuideCell.m; sourceTree = "<group>"; };
+		04A6C5661DD03B81005BBEEB /* JCNewFeatureNormalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNewFeatureNormalVC.h; sourceTree = "<group>"; };
+		04A6C5671DD03B81005BBEEB /* JCNewFeatureNormalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNewFeatureNormalVC.m; sourceTree = "<group>"; };
+		04A6C56B1DD03B81005BBEEB /* JCGuideCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGuideCell.h; sourceTree = "<group>"; };
+		04A6C56C1DD03B81005BBEEB /* JCGuideCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCGuideCell.m; sourceTree = "<group>"; };
+		04A6C5711DD03BD5005BBEEB /* JCNewFeaturePagingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNewFeaturePagingVC.h; sourceTree = "<group>"; };
+		04A6C5721DD03BD5005BBEEB /* JCNewFeaturePagingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNewFeaturePagingVC.m; sourceTree = "<group>"; };
+		04A6C5741DD03BD5005BBEEB /* JCPageModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCPageModelController.h; sourceTree = "<group>"; };
+		04A6C5751DD03BD5005BBEEB /* JCPageModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCPageModelController.m; sourceTree = "<group>"; };
+		04A6C5781DD03BDE005BBEEB /* NSUserDefaults+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaults+Extension.h"; sourceTree = "<group>"; };
+		04A6C5791DD03BDE005BBEEB /* NSUserDefaults+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSUserDefaults+Extension.m"; sourceTree = "<group>"; };
 		04EB9C8C1DCD868100777BAF /* JCNewFeatureBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCNewFeatureBaseVC.h; sourceTree = "<group>"; };
 		04EB9C8D1DCD868100777BAF /* JCNewFeatureBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCNewFeatureBaseVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,11 +170,9 @@
 		04313DEF1DCC7445002C11FF /* JCNewFeatureVC */ = {
 			isa = PBXGroup;
 			children = (
-				04EB9C7E1DCD770F00777BAF /* NewFeature */,
+				04A6C5701DD03BD5005BBEEB /* JCNewFeaturePagingVC */,
+				04A6C5641DD03B81005BBEEB /* JCNewFeatureNormalVC */,
 				04313DF01DCC7445002C11FF /* Category */,
-				04313DF31DCC7445002C11FF /* JCNewFeaturePagingVC.h */,
-				04313DF41DCC7445002C11FF /* JCNewFeaturePagingVC.m */,
-				04313DF51DCC7445002C11FF /* Model */,
 				04EB9C8C1DCD868100777BAF /* JCNewFeatureBaseVC.h */,
 				04EB9C8D1DCD868100777BAF /* JCNewFeatureBaseVC.m */,
 			);
@@ -184,48 +182,58 @@
 		04313DF01DCC7445002C11FF /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				04A6C5781DD03BDE005BBEEB /* NSUserDefaults+Extension.h */,
+				04A6C5791DD03BDE005BBEEB /* NSUserDefaults+Extension.m */,
 				04313DF11DCC7445002C11FF /* UIApplication+JCNewFeature.h */,
 				04313DF21DCC7445002C11FF /* UIApplication+JCNewFeature.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		04313DF51DCC7445002C11FF /* Model */ = {
+		04A6C5641DD03B81005BBEEB /* JCNewFeatureNormalVC */ = {
 			isa = PBXGroup;
 			children = (
-				04313DF61DCC7445002C11FF /* JCPageModelController.h */,
-				04313DF71DCC7445002C11FF /* JCPageModelController.m */,
+				04A6C5651DD03B81005BBEEB /* Controller */,
+				04A6C56A1DD03B81005BBEEB /* View */,
 			);
-			path = Model;
+			path = JCNewFeatureNormalVC;
 			sourceTree = "<group>";
 		};
-		04EB9C7E1DCD770F00777BAF /* NewFeature */ = {
+		04A6C5651DD03B81005BBEEB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				04EB9C7F1DCD770F00777BAF /* Controller */,
-				04EB9C821DCD770F00777BAF /* NSUserDefaults+Extension.h */,
-				04EB9C831DCD770F00777BAF /* NSUserDefaults+Extension.m */,
-				04EB9C841DCD770F00777BAF /* View */,
-			);
-			path = NewFeature;
-			sourceTree = "<group>";
-		};
-		04EB9C7F1DCD770F00777BAF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				04EB9C801DCD770F00777BAF /* JCNewFeatureNormalVC.h */,
-				04EB9C811DCD770F00777BAF /* JCNewFeatureNormalVC.m */,
+				04A6C5661DD03B81005BBEEB /* JCNewFeatureNormalVC.h */,
+				04A6C5671DD03B81005BBEEB /* JCNewFeatureNormalVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		04EB9C841DCD770F00777BAF /* View */ = {
+		04A6C56A1DD03B81005BBEEB /* View */ = {
 			isa = PBXGroup;
 			children = (
-				04EB9C851DCD770F00777BAF /* JCGuideCell.h */,
-				04EB9C861DCD770F00777BAF /* JCGuideCell.m */,
+				04A6C56B1DD03B81005BBEEB /* JCGuideCell.h */,
+				04A6C56C1DD03B81005BBEEB /* JCGuideCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		04A6C5701DD03BD5005BBEEB /* JCNewFeaturePagingVC */ = {
+			isa = PBXGroup;
+			children = (
+				04A6C5711DD03BD5005BBEEB /* JCNewFeaturePagingVC.h */,
+				04A6C5721DD03BD5005BBEEB /* JCNewFeaturePagingVC.m */,
+				04A6C5731DD03BD5005BBEEB /* Model */,
+			);
+			path = JCNewFeaturePagingVC;
+			sourceTree = "<group>";
+		};
+		04A6C5731DD03BD5005BBEEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04A6C5741DD03BD5005BBEEB /* JCPageModelController.h */,
+				04A6C5751DD03BD5005BBEEB /* JCPageModelController.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,17 +372,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EB9C891DCD770F00777BAF /* NSUserDefaults+Extension.m in Sources */,
-				04313DFA1DCC7445002C11FF /* JCPageModelController.m in Sources */,
+				04A6C56D1DD03B81005BBEEB /* JCNewFeatureNormalVC.m in Sources */,
+				04A6C57A1DD03BDE005BBEEB /* NSUserDefaults+Extension.m in Sources */,
 				04313DEE1DCC72D1002C11FF /* JCHomeViewController.m in Sources */,
-				04EB9C8A1DCD770F00777BAF /* JCGuideCell.m in Sources */,
-				04EB9C881DCD770F00777BAF /* JCNewFeatureNormalVC.m in Sources */,
+				04A6C56F1DD03B81005BBEEB /* JCGuideCell.m in Sources */,
+				04A6C5771DD03BD5005BBEEB /* JCPageModelController.m in Sources */,
 				04313DB11DCC5C41002C11FF /* ViewController.m in Sources */,
+				04A6C5761DD03BD5005BBEEB /* JCNewFeaturePagingVC.m in Sources */,
 				04EB9C8E1DCD868100777BAF /* JCNewFeatureBaseVC.m in Sources */,
 				04313DAE1DCC5C41002C11FF /* AppDelegate.m in Sources */,
 				04313DF81DCC7445002C11FF /* UIApplication+JCNewFeature.m in Sources */,
 				04313DAB1DCC5C41002C11FF /* main.m in Sources */,
-				04313DF91DCC7445002C11FF /* JCNewFeaturePagingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
