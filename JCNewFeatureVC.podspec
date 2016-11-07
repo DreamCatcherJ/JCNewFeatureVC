@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "JCNewFeatureVC"
-s.version          = "0.0.3"
+s.version          = "0.0.4"
 s.summary          = "NewFeature Views used on iOS."
 s.description      = <<-DESC
 It is new feature views used on iOS, which implement by Objective-C.
